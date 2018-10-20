@@ -109,7 +109,7 @@ add(2,2)
 This is useful for following a *Functional Programming* paradigm. By creating
 functions for manipulating data you can chain them together to assemble a final
 result. If at any point in the chain of functions a value is *rejected* the chain
-will skip to the nearest `catch()` handler.
+will skip to the nearest `catch()` or `rejection` handler if one has been included.
 
 For more information on Functional Programming: <a href='https://en.wikipedia.org/wiki/Functional_programming' target='_blank' rel='nofollow'>Functional Programming</a>
 
